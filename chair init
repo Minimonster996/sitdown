@@ -1,0 +1,3 @@
+Add this to the chair init:
+
+["<t color='#0099FF'>Sit Down</t>","Chair\sitdown.sqf"]
