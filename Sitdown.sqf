@@ -1,7 +1,7 @@
 _chair = _this select 0; 
 _unit = _this select 1; 
 
-[[_unit, "Crew"], "MAC_fnc_switchMove"] spawn BIS_fnc_MP; 
+[[_unit, "Crew"], "fnc_switchMove"] spawn BIS_fnc_MP; 
 _unit setPos (getPos _chair); 
 _unit setDir ((getDir _chair) - 180); 
 standup = _unit addaction ["<t color='#0099FF'>Stand Up</t>","Chair\standup.sqf"];
